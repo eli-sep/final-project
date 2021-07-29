@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+ul {
+    background-color: cornflowerblue;
+    list-style: none;
+    float: right;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    /*font-family: 'Hele Script', cursive;*/
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 10pt;
+    padding: 5px;
+    margin: 0px;
+}
+
