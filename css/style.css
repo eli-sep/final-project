@@ -5,6 +5,11 @@ body, html {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+}
+
 .bg {
     background-image: url("../image/anthony-melone-W6zVhDL.jpg");
     background-position: center;
@@ -24,17 +29,24 @@ a {
     color: inherit;
 }
 
-ul {
-    background-color: lightgoldenrodyellow;
-    list-style: none;
+.logo {
+    float: left;
+    height: 120px;
+    overflow: hidden;
+}
+
+.logo img {
+    margin: 0;
+}
+
+.navlist {
+    background-color: #fafad2;
     float: right;
-    padding: 5px;
-    margin: 0 0 30px 0;
+    padding: 5px 15px;
 }
 
 li {
     display: inline-block;
-    /*font-family: 'Hele Script', cursive;*/
     font-family: Helvetica;
     font-weight: 600;
     font-size: 10pt;
@@ -42,11 +54,104 @@ li {
     margin: 0px;
 }
 
-.title {
+.header {
+    font-family: "Zilla Slab";
+    padding: 20px;
+    margin: 0px auto 50px;
+    background-color: #fff0f5;
+    text-align: center;
+}
+
+.hero-txt{
+    margin: 0;
     font-family: "Zilla Slab";
     clear: both;
-    padding: 100% auto;
-    margin: 50px auto;
-    background-color: lavenderblush;
+    padding: 10px;
     text-align: center;
+}
+
+.hero-left{
+    width: 33%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.hero-container {
+    padding: 0px 0px 300px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.txt {
+    margin: 0 0px 0 0;
+    font-family: "Zilla Slab";
+    clear: both;
+    padding: 0px;
+    text-align: center;
+}
+
+.hero-right{
+    width: 33%;
+    float: right;
+    margin-left: 10px;
+}
+
+.spacing {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.0);
+}
+
+.menubar {
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-color: #fafad2;
+}
+
+.menulist {
+    list-style: none;
+    margin: 0 0 0 3%;
+    float: left;
+    padding: 0px;
+}
+
+.menulist li{
+    padding: 0px 5px;
+    margin: 0 50px 0 0;    
+}
+
+.menulist li h3 {
+    margin: 10px 0;
+}
+
+.menulist li:hover {
+    background-color: #c5c5a0;
+}
+
+.column {
+    float: left;
+    width: calc(33.33% - 60px);
+    padding: 30px;
+  }
+
+.column img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    height: 350px;
+    object-fit: cover;
+    margin: auto;
+}
+ 
+.row {
+    background-color: #ffffff;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
