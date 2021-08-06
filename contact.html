@@ -8,18 +8,56 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script></script>
-    <script src="/js/all.min.js"></script>
+    <script src="js/all.min.js"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html"></a>About</li>
-        </ul>
-    </nav>
-    <header>
-        
-    </header>
+    <div class="bg">
+        <nav>
+            <div class="logo"><img height="170px" src="image/Logo.jpg" alt=""></div>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="header">
+                <h1>Sew Sweet</h1>
+            </div>
+        </header>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202810.6499547344!2d-119.94990389348867!3d36.91965716960446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise%20Industries!5e0!3m2!1sen!2sus!4v1628211447905!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>              
+          </div>
+        <div class="spacing"></div>
+        <div class="footer">
+            <p class="connect">Find us on social media!</p>
+            <ul>
+                <li class="media"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li class="media"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="media"><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
