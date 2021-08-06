@@ -212,3 +212,7 @@ input[type=text], select, textarea {
     margin-right: 3%;
     float: right;
   }
+
+  .contactbg {
+      height: 100%;
+  }
