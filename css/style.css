@@ -159,9 +159,13 @@ li {
 .footer {
     font-family: "Zilla Slab";
     padding: 10px;
-    margin: 25px auto 50px;
+    margin: 25px auto 0;
     background-color: #cfcfcf;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: -75px;
+    width: calc(100% - 20px);
 }
 
 .connect {
